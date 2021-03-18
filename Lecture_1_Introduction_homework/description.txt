@@ -1,0 +1,12 @@
+**Homework**
+- Install the last version of Python
+- Create a repo on a Github
+- Copy ```Lecture_1_Introduction_homework``` to your repo
+- Commit files
+- Create a virtual environment
+- Install dependencies from requirements.txt with command `pip install -r requirements.txt`
+- Run tests with command ```pytest``` (1 should pass and 5 fail)
+- Create a new branch
+- Implement `get_length` and `remove_spaces` functions to fix tests
+- Push your changes and make a Pull Request for your repo
+- Assign PR to https://github.com/zhidelev
