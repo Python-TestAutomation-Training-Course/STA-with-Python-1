@@ -1,5 +1,4 @@
 import pytest
-
 from hw3 import combinations
 
 

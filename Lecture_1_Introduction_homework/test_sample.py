@@ -21,6 +21,9 @@ def remove_spaces(test_string):
     return None
 
 
-@pytest.mark.parametrize("test_string,result", [("test", "test"), ("\ttab", "tab"), ("  whitespace ", "whitespace")])
+@pytest.mark.parametrize(
+    "test_string,result",
+    [("test", "test"), ("\ttab", "tab"), ("  whitespace ", "whitespace")],
+)
 def test_string_remove_spaces(test_string, result):
     assert remove_spaces(test_string) == result
