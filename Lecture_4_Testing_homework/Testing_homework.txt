@@ -1,0 +1,46 @@
+# unittest
+
+1. Create a python file with a function that calculates a factorial.
+
+2. Write 3 unit test for this function.
+
+3. Run the 3 tests with unittest
+
+4. Send 3 files:
+	* a module with a function
+	* a file containing unit tests
+	* screenshot of a unittest run
+
+# pytest
+
+1. Create a class Person that has the following attributes and methods:
+	* id: a random int of 5 chars
+	* is_alive: True or False
+	* age: int
+	* work(): print("I'm working")
+	* sleep(): print("I'm sleeping!")
+	* have_fun(): print("I'm having fun")
+
+2. If a person is alive, one can sleep and have fun. If a person is 18 or older and 60 or lower, one can also work. If a person is older than 80, one is not alive and cannot do anything.
+
+3. Create a test module that has the following:
+	* a suite setup fixture that prints that the Universe has been created.
+	* a suite teardown that prints that the Universe has been destroyed.
+	* a test setup fixture that returns an instance of Person() with a random age and id.
+	* a test teardown fixture that prints that a person with a specific id died.
+	* 3 tests that use the object created in the test setup fixture and check methods of the class
+
+4. Run the module with pytest in verbose mode
+
+4. Send 2 files:
+	* the test module
+	* screenshot of the run
+
+# Robot Framework (optional!/do only if you are really interested)
+
+1. Create a .robot file that contains:
+	* Two variables called Apples and Oranges set to any numerical value I like
+	* Fours test performing basic arithmetic actions
+
+2. Send the .robot file you've created
+	
